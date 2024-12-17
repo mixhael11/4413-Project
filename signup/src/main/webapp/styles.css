@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d9cfbc;
+}
+
+.logo {
+    max-width: 150px; 
+}
+
+
+.welcome-container {
+    display: flex;
+    align-items: stretch; 
+    height: 80vh; 
+    padding: 20px;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.divider {
+    border-left: 2px solid #bbb;
+    height: 100%; 
+    margin: 0 25%;
+}
+
+
+.divider-inv {
+    border-left: 2px solid #fff; 
+    height: 100%;
+    margin: 0 25%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #9c8055;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+}
+
+form {
+    all: unset; 
+  
+}
+
+.btn:hover {
+    background-color: #8d7754;
+}
+
+.logo {
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+button {
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+
+.margintop{
+	margin-top:50%;
+}
+
+
+ .status-message {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ .status-error {
+    color: #ff0000;
+     border: 1px solid #ff0000;
+    background-color: #ffe6e6;
+ }
+ 
+.status-success {
+    color: #008000;
+    border: 1px solid #008000;
+    background-color: #e6ffe6;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.siginform-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.siginform-content > div, .right-column > div{
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+h1{
+	display:flex;
+	margin:0px;
+	padding:0px;
+	justify-content: center;
+}

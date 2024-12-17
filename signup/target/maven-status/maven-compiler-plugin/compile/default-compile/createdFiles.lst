@@ -1,0 +1,5 @@
+Beans\UserBean.class
+db\DatabaseHandler.class
+controllers\AuthenticationController.class
+servlets\SigninServlet.class
+servlets\SignupServlet.class
