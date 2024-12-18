@@ -204,6 +204,8 @@ public class AuctionServer{
     }
 
     public void removeAuction(int key){
+        Auction auction = auctions.get(key);
+        auction.delete();
         auctions.remove(key);
     }
 
